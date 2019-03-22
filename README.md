@@ -1,0 +1,2 @@
+# RandomCode
+Simple console apps
