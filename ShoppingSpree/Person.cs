@@ -16,7 +16,9 @@ namespace ShoppingSpree
             this.Money = money;
             this.Products = new List<Product>();
         }
-
+        /// <summary>
+        /// Person Class
+        /// </summary>
         public string Name
         {
             get => name; set
@@ -45,6 +47,11 @@ namespace ShoppingSpree
         }
         internal List<Product> Products { get => products; set => products = value; }
 
+
+        /// <summary>
+        /// Add's products if this.person can afford it 
+        /// </summary>
+        /// <param name="product">Products in Purson's bag</param>
         public void Add(Product product)
         {
             decimal cost = product.Price;

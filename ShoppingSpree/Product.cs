@@ -15,6 +15,10 @@ namespace ShoppingSpree
             this.Price = price;
         }
 
+        /// <summary>
+        /// Products class
+        /// </summary>
+
         public string Name
         {
             get => this.name; set

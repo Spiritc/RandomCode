@@ -62,3 +62,10 @@ namespace ShoppingSpree
         }
     }
 }
+
+ //  On the first two lines you are given all people and all products.After all purchases print every person in the order of appearance 
+ //  and all products that he has bought also in order of appearance.If nothing was bought, print the name of the person 
+ //  followed by "Nothing bought". 
+ //  In case of invalid input(negative money exception message: "Money cannot be negative") 
+ //  or an empty name(empty name exception message: "Name cannot be empty") break the program with an appropriate message.
+ //  See the examples below:
