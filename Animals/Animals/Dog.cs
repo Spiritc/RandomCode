@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Animals.Animals
+{
+    public class Dog : Animal
+    {
+        private static string sound = "Woof!";
+
+        public Dog(string name, int age, string gender) : base(name, age, gender)
+        {
+
+        }
+
+        public override void ProduceSound()
+        {
+            Console.WriteLine(sound);
+        }
+
+
+    }
+}
